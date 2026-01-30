@@ -209,10 +209,6 @@
 }
 
 /* Accessibility improvements */
-.hero-content:focus-within {
-  outline: 2px solid white;
-  outline-offset: 4px;
-}
 
 /* Ensure sufficient contrast in dark mode */
 [data-md-color-scheme="slate"] .hero-content h1,

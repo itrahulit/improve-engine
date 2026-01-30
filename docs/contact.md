@@ -11,6 +11,9 @@
 
 Have a question, suggestion, or just want to say hello? We're here to help!
 
+!!! warning "Form Configuration Required"
+    Before using the contact form, you need to configure a form handling service. Replace `YOUR_FORM_ID` in the form action with your actual form ID from [Formspree](https://formspree.io/) or another form service.
+
 <div class="contact-form">
   <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
     <label for="name">
@@ -38,7 +41,11 @@ Have a question, suggestion, or just want to say hello? We're here to help!
 </div>
 
 !!! note "Form Setup"
-    To enable the contact form, replace `YOUR_FORM_ID` in the form action with your Formspree form ID, or use another form handling service of your choice.
+    The contact form requires configuration before it will work:
+    
+    1. Sign up for a free account at [Formspree](https://formspree.io/) or use another form handling service
+    2. Replace `YOUR_FORM_ID` in the form action with your actual form ID
+    3. Update the email address below with your real contact email
 
 ## Other Ways to Reach Us
 
