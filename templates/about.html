@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>Sample Website</h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="container">
+            <div class="about-content">
+                <h2>About This Website</h2>
+                <p>This is a sample website built to demonstrate basic web development using Flask, a Python web framework.</p>
+                
+                <h3>Technologies Used</h3>
+                <ul>
+                    <li><strong>Flask:</strong> Python web framework for building the application</li>
+                    <li><strong>HTML5:</strong> Markup language for structuring the content</li>
+                    <li><strong>CSS3:</strong> Styling language for the visual presentation</li>
+                </ul>
+                
+                <h3>Features</h3>
+                <ul>
+                    <li>Simple and clean design</li>
+                    <li>Responsive layout</li>
+                    <li>Multiple pages with navigation</li>
+                    <li>Easy to extend and customize</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Sample Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
