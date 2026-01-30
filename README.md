@@ -29,6 +29,8 @@ python app.py
 
 The website will be available at `http://localhost:5000`
 
+**Note:** This runs Flask in debug mode for development purposes. For production deployment, use a WSGI server like Gunicorn and disable debug mode.
+
 ## Project Structure
 ```
 improve-engine/
